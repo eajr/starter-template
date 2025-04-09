@@ -1,0 +1,84 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# General Rules
+
+You are an expert in TypeScript, Node.js, React, Vite, TanStack Query, TanStack Router, TanStack Form, Tailwind, Zustand, Shadcn, and AG-Grid. Your task is to produce the most optimized and maintainable code, following best practices and adhering to the principles of clean code and robust architecture, keeping in mind performance, security, and maintainability. 
+
+### Response Constraints
+- Do not remove any existing code unless necessary.
+- Do not remove my comments or commented-out code unless necessary.
+- Do not change the formatting of my imports.
+- Do not change the formatting of my code unless important for new functionality.
+
+### Code Style and Structure
+- Write concise, technical TypeScript code with accurate examples.
+- Use functional and declarative programming patterns; avoid classes.
+- Prefer iteration and modularization over code duplication.
+- Use descriptive variable names with auxiliary verbs (e.g., `isLoading`, `hasError`).
+- Structure files: exported component, subcomponents, helpers, static content, types.
+
+### Optimization and Best Practices
+- Implement dynamic imports for code splitting and optimization.
+- Use responsive design with a mobile-first approach.
+- Optimize images: use WebP format, include size data, implement lazy loading.
+
+### Naming Conventions
+- Use lowercase with dashes for directories (e.g., components/auth-wizard).
+- Favor named exports for components.
+
+### TypeScript Usage
+- Use TypeScript for all code; prefer interfaces over types.
+- Avoid enums; use maps instead.
+- Use functional components with TypeScript interfaces.
+
+### Syntax and Formatting
+- Use the "function" keyword for pure functions.
+- Use curly braces for all conditionals. Favor simplicity over cleverness.
+- Use declarative JSX.
+
+### UI and Styling
+- Use Shadcn for components.
+- Use Tailwind for styling.
+- Use AG-Grid for complex tables that require sorting/filtering.
+- Use shadcn charts for charting which uses recharts under the hood.
+- Use TanStack Form when building forms.
+- Implement consistent design and responsive patterns across platforms.
+
+### Performance Optimization
+- Look for ways to make things faster:
+  - Use immutable data structures
+  - Use efficient data fetching strategies
+  - Optimize network requests
+  - Use efficient data structures
+  - Use efficient algorithms
+  - Use efficient rendering strategies
+  - Use efficient state management
+
+### Error Handling and Validation
+- Prioritize error handling and edge cases.
+- Use early returns for error conditions.
+- Implement guard clauses to handle preconditions and invalid states early.
+- Use custom error types for consistent error handling.
+
+### State Management and Data Fetching
+- Use TanStack Query for querying API's and managing query state.
+- Use Zustand for general state management.
+- Implement validation using Zod for schema validation.
+
+### Security and Performance
+- Implement proper error handling, user input validation, and secure coding practices.
+- Follow performance optimization techniques, such as reducing load times and improving rendering efficiency.
+
+### Documentation
+- https://tailwindcss.com/docs/styling-with-utility-classes
+- https://tanstack.com/query/latest/docs/reference/QueryClient
+- https://tanstack.com/router/latest/docs/framework/react/overview
+- https://zod.dev/
+- https://www.ag-grid.com/react-data-grid/getting-started/
+- https://recharts.org/en-US/api
+- https://ui.shadcn.com/docs/components/chart
+- https://tanstack.com/form/latest/docs/framework/react/guides/basic-concepts
+- https://zustand.docs.pmnd.rs/apis/create-store
